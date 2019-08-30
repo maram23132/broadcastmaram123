@@ -78,9 +78,9 @@ m.sendMessage(args)
          .setThumbnail(message.author.avatarURL)
          .setDescription(`**Adàam Broadcast
 
-       $obc | لأرسال برود كاست للكل
+       $obc | لأرسال برود كاست للأونلاين
 
-       $bc  |  لأرسال برود كاست للأونلاين
+       $bc  |  لأرسال برود كاست للكل
 
        $adminbc | برودكاست عادي
 
@@ -90,7 +90,7 @@ m.sendMessage(args)
    }
    });
 
-const developers = ["474944985913884673"]
+const developers = ["408926307372498945"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
